@@ -1,0 +1,37 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 50px auto;
+    width: 500px;
+}
+
+#game {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#guess {
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 150px;
+}
+
+#submit-guess {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#submit-guess:hover {
+    background-color: #3e8e41;
+}
+
+#message {
+    font-weight: bold;
+    color: #000;
+}
